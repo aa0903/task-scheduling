@@ -14,20 +14,23 @@
 }
 .left-container{
     float: left;
-    height: 800px;
+    height: 100vh;
+    min-height: max-content;
     width: 17%;
-    overflow: hidden;
-    border-right: 2px solid black;
+    overflow: auto;
+    position: sticky;
+    position: fixed;
+    top: 0px;
+    border-right: 2px solid grey;
 }
 .right-containes{
     width: 83%;
-    float: left;
-    height: 100%;
+    float: right;
+    height: 100% auto;
     position: relative;
     flex-direction: row;
 }
 .header{
-
     max-height: 20vh auto;
     width: 80% auto;   
     margin-top: 0px;
@@ -47,11 +50,15 @@
     
 }
 .menu a{
-    margin: 10px 15px;
+    margin: 10%;
+    margin-top: 15% !important;
+    width: 80%;
+    height: 60%;
+    max-width: max-content;
 }
 .menu a button{
-    width: 150px;
-    margin: 20px;
+    width: 65%;
+    margin: 10%;
     outline: none;
     padding: 8px 0px;
     border-radius: 12px;
@@ -66,30 +73,31 @@
     
 }
 .menu{
-    width: 210px;
-    margin: 10px 20px;
+    width: 85%;
+    margin: 8%;
     border-radius: 20px;
-    background-color: rgb(128,128,128,0.144);
+    background-color: rgba(128,128,128,0.363);
     
-} ;
+
 }
 #home{
     background-color:grey;
     color: white;
 }
 .bottom-menu{
-    width: 210px;
-    margin: 200px 20px 40px 20px;
+    width: 85%;
+    margin-top: 40% !important;
+    margin: 8%;
     border-radius: 20px;
     background-color: rgba(128,128,128,0.363);
 }
 .bottom-menu a{
-    margin: 10px 15px;
+    margin: 7%;
 }
 .bottom-menu a button{
-    width: 150px;
+    width: 65%;
     padding: 8px 0px;
-    margin:20px ;
+    margin: 10%;
     border-radius: 12px;
     background-color: rgba(128, 128, 128, 0.144);
     border-style: none;
@@ -102,15 +110,17 @@
 }
 
 .sreach-bar{
-    margin-left: 60px;
+    margin-left: 10%;
     border-radius: 15px;
-    color: rgba(201, 185, 185, 0.027);
+    color: rgba(201, 185, 185, 0.212);
 }
 #sreach-bar{
+    margin-top: 1%;
     border-radius: 15px;
-    padding: 5px;
-    border-style: none;
-    outline-style: none; height: 30px; width: 22vw; font-size: large;
+    padding: .5%;
+    border-color: rgba(128,128,128,0.425);
+    outline-style: none; max-height: 5vh; width: 22vw;
+    max-width: 22vw; font-size: 20px;
 }
 .topic1{
     font-family:"Source Sans Pro";
