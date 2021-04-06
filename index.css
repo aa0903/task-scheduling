@@ -272,9 +272,6 @@
     padding-left: 0px !important;
 }
 @media screen and (max-width:500px){
-    #menu img {
-        display: contents;
-    }
     .right-containes{
         width: 100%;
     }
