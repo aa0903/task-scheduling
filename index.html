@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div id="menuList">
-                <h2>logo</h2>
+                <h3>scheduling drones</h3>
                 <img id="avatar" src="./Avatar.png" alt="">
                 <p id="username">Avator</p>
                 <div class="menu">
@@ -78,17 +78,22 @@
     <script>
         var menuList = document.getElementById("menuList");
         menuList.style.maxWidth ="0vw";
+        menuList.style.maxHeight ="0vh";
         function togglemenu(){
             if (menuList.style.maxWidth =="0vw"){
-                menuList.style.maxWidth ="50vw"
+                menuList.style.maxWidth ="180px"
+                menuList.style.maxHeight ="64vh";
             }
             else{
                 menuList.style.maxWidth ="0vw"
+                menuList.style.maxHeight ="0vh"
+
             }
         }
         function retogglemenu(){
-            if (menuList.style.maxWidth ="50vw"){
+            if (menuList.style.maxWidth == "180px"){
                 menuList.style.maxWidth ="0vw"
+                menuList.style.maxHeight ="0vh"
             }
         }
     </script>
