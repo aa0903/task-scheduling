@@ -195,10 +195,10 @@
         display: block;
         overflow: auto;
         position: absolute;
-        background-color: #85EF47;
         transition:  0.3s;
         border-radius: 15px;
         z-index: 2;
+        background-color: #85EF47;
     }
     .body{
         clear: both;
