@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro:ital@1&display=swap');
 .body{
     width: 90%;
     margin: 5%;
@@ -9,9 +12,11 @@
 .body h2{
     text-align: center;
     color: #00BD56;
+    font-family: "Source Sans Pro"
 }
 .body p{
     margin: 20px 0%;
+    font-family: "Source Sans Pro"
 }
 .body p span{
     margin-left: 8%;
