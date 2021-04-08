@@ -1,0 +1,138 @@
+#projects{
+    color: white;
+    background-color: grey;
+
+}
+.right-containes{
+    width: 83%;
+    float: right;
+    height: 100% auto;
+    position: relative;
+    flex-direction: row;
+}
+.body-content{
+    margin: 5%;
+    margin-top: 2% !important;
+    width: 90%;
+    float: left;
+}
+.body-content h2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.body-content p span{
+    margin-left: 8%;
+}
+.body-content ul li{
+    list-style: none;
+}
+.body-content ul li img{
+    width: 30%;
+    margin: 1%;
+    float: left;
+}
+.reading{
+    width: 44%;
+    background-color: linear-gradient(to bottom,blue);
+    border: 3px solid greenyellow;
+    float: left;
+    margin: 2%;
+    text-align: center;
+    font-size: medium;
+    border-radius: 7%;
+    color: rgba(0, 128, 0, 0.932);
+}
+.reading img{
+    margin-top: 10px;
+    width: 320px;
+    height: 320px;
+    border-radius: 25px;
+}
+.content-reading a{
+    width: 50%;
+    float: left;
+}
+#startwork{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.content-reading img{
+width: 30px;
+height: 30px;
+}
+@media screen and (max-width:500px){
+    .body-content{
+        width: 90% !important;
+        margin: 5% !important;
+        margin: 0px;
+        padding-left: 7.5%;   
+    }
+    .content-reading img{
+        width: 25px !important;
+    }
+    .body-content h2{
+        font-size: 20px;
+    }
+    .body-content p{
+        font-size: 13px;
+    }
+    .reading img{
+        border-radius: 20px;
+    }
+    .reading h1{
+        font-size: 15px !important;
+    }
+    .reading a{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .reading{
+        width: 80% !important;
+        background-color: linear-gradient(to bottom,blue);
+        border: 3px solid greenyellow;
+        float: left;
+        text-align: center;
+        font-size: medium;
+        border-radius: 20px;
+        color: rgba(0, 128, 0, 0.932);
+    }
+    .reading img{
+        width: 90%;
+        border-radius: 4%;
+    }
+
+}
+@media screen and (max-width:800px){
+    .body-content{
+        width: 90%;
+        float: right;
+        margin: 5%;
+    }
+    .right-container{
+        width: 75%;
+    }
+    .reading img{
+        width: 80%;
+        border-radius: 20px;
+    }
+    .reading h1{
+        font-size: 20px;
+    }
+    .reading a{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .content-reading img{
+        width: 33px !important;
+    }
+    .reading{
+        width: 44%;
+        background-color: linear-gradient(to bottom,blue);
+        border: 3px solid greenyellow;
+        float: left;
+        text-align: center;
+        font-size: medium;
+        border-radius: 7%;
+        color: rgba(0, 128, 0, 0.932);
+    }
+    }

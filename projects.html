@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./commen.css">
+    <link rel="stylesheet" href="./projects.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="left-container">
+            <h1>logo</h1>
+            <img id="avatar" src="./Avatar.png" alt="">
+            <p id="username">Avator</p>
+            <div class="menu">
+                <a href="./index.html" ><button id="home">Home</button></a>
+                <a href="./projects.html" ><button id="projects">Projects</button></a>
+                <a href="./works.html" ><button id="works">works</button></a>
+                <a href="./about.html" ><button id="about">About us</button></a>
+                <a href="./contact.html" ><button id="conntact">contact</button></a>
+            </div>
+        </div>
+        <div class="right-containes">
+            <div class="header">
+                <div class="sreach-bar">
+                    <div >
+                        <img id="menu-icon" src="./menu.png" alt="menu" 
+                        onclick="togglemenu()" >
+                    </div>
+                    <input id="sreach-bar" type="search"  placeholder="search" required style="outline: none; outline-style: none;">
+                    <a id="log-out" href="./log-out.html"><button>log out</button></a>
+                </div>
+            </div>
+            <div id="menuList">
+                <h2>logo</h2>
+                <img id="avatar" src="./Avatar.png" alt="">
+                <p id="username">Avator</p>
+                <div class="menu">
+                    <a href="./index.html" ><button id="home">Home</button></a>
+                    <a href="./projects.html" ><button id="projects">Projects</button></a>
+                    <a href="./works.html" ><button id="works">works</button></a>
+                    <a href="./about.html" ><button id="about">About us</button></a>
+                    <a href="./contact.html" ><button id="conntact">contact</button></a>
+                </div>
+            </div>
+            <div class="body-content">
+                <h2>Projects</h2>
+                <p><span>Select</span> the projects to start work...</p>
+                <div class="projects">
+                    <div class="reading">
+                        <img src="./reading.jpg" alt="">
+                        <div class="content-reading">
+                            <h1>Reading</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="reading.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                    <div class="reading">
+                        <img src="./exercise.jpg" alt="">
+                        <div class="content-reading">
+                            <h1>Exercise</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="exersice.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                    <div class="reading">
+                        <img src="./yoga.jpg" alt="">
+                        <div class="content-reading">
+                            <h1>Yoga</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="./yoga.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                    <div class="reading">
+                        <img src="./morning.jpg" alt="">
+                        <div class="content-reading">
+                            <h1>Moring wake up</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="./reading.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                    <div class="reading">
+                        <img src="./programming.png" alt="">
+                        <div class="content-reading">
+                            <h1>reading</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="./reading.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                    <div class="reading">
+                        <img src="./programming.png" alt="">
+                        <div class="content-reading">
+                            <h1>reading</h1>
+                            <a href="./works.html"><img src="./add-folder.png" alt=""></a>
+                            <a href="reading.html" id="startwork">click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="col1">
+                    <p>SCHEDULING DRONES © 2021 ALL Rights Reserved</p>
+                </div>
+                <div class="col2">
+                    <ul>
+                        <li><img src="./icons8-facebook-64.png" alt=""></li>
+                        <li><img src="./icons8-instagram-64.png" alt=""></li>
+                        <li><img src="./icons8-twitter-circled-64.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight ="0vh";
+        menuList.style.maxWidth ="0vw";
+        function togglemenu(){
+            if (menuList.style.maxHeight =="0vh"){
+                menuList.style.maxHeight ="60vh"
+                menuList.style.maxWidth ="120px"
+            }
+            else{
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+        function retogglemenu(){
+            if (menuList.style.maxHeight ="60vh"){
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
