@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>works</title>
+    <link rel="stylesheet" href="./commen.css">
+    <link rel="stylesheet" href="./works.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="left-container">
+            <h1>logo</h1>
+            <img id="avatar" src="./Avatar.png" alt="">
+            <p id="username">Avator</p>
+            <div class="menu">
+                <a href="./index.html" ><button id="home">Home</button></a>
+                <a href="./projects.html" ><button id="projects">Projects</button></a>
+                <a href="./works.html" ><button id="works">works</button></a>
+                <a href="./about.html" ><button id="about">About us</button></a>
+                <a href="./contact.html" ><button id="conntact">contact</button></a>
+            </div>
+        </div>
+        <div class="right-containes">
+            <div class="header">
+                <div class="sreach-bar">
+                    <div >
+                        <img id="menu-icon" src="./menu.png" alt="menu" 
+                        onclick="togglemenu()" >
+                    </div>
+                    <input id="sreach-bar" type="search"  placeholder="search" required style="outline: none; outline-style: none;">
+                    <a id="log-out" href="./log-out.html"><button>log out</button></a>
+                </div>
+            </div>
+            <div id="menuList">
+                <h3>scheduling drones</h3>
+                <img id="avatar" src="./Avatar.png" alt="">
+                <p id="username">Avator</p>
+                <div class="menu">
+                    <a href="./index.html" ><button id="home">Home</button></a>
+                    <a href="./projects.html" ><button id="projects">Projects</button></a>
+                    <a href="./works.html" ><button id="works">works</button></a>
+                    <a href="./about.html" ><button id="about">About us</button></a>
+                    <a href="./contact.html" ><button id="conntact">contact</button></a>
+                </div>
+            </div>
+            <div class="body" onclick="retogglemenu(menuList)">
+                <div class="workList">
+                    <ul>
+                        <li id="todo"><a href="./works.html" style=" color: #85ef47fa;"><span>To-do</span></a></li>
+                        <li id="progress"><a href="./progress.html" style=" color: #85ef47fa;"><span>progress</span></a></li>
+                        <li id="completed" style="  border-bottom: 3px solid blue;"><a href="./completed.html" style="border-style: none; color: blue;"><span>completed</span></a></li>
+                    </ul>                   
+                </div>
+                <div class="todolist">
+                    <div><img src="./reading.jpg" alt="reading image" style="width: 90%; border-radius: 25px; margin: 5%;"><div id="linkPro"> Sccessfuly completed</div></div>
+                </div>
+            </div>
+            <div class="footer" style="margin-top:40%;">
+                <div class="col1">
+                    <p>SCHEDULING DRONES © 2021 ALL Rights Reserved</p>
+                </div>
+                <div class="col2">
+                    <ul>
+                        <li><img src="./icons8-facebook-64.png" alt=""></li>
+                        <li><img src="./icons8-instagram-64.png" alt=""></li>
+                        <li><img src="./icons8-twitter-circled-64.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight ="0vh";
+        menuList.style.maxWidth ="0vw";
+        function togglemenu(){
+            if (menuList.style.maxHeight =="0vh"){
+                menuList.style.maxHeight ="64vh"
+                menuList.style.maxWidth ="180px"
+            }
+            else{
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+        function retogglemenu(){
+            if (menuList.style.maxHeight ="64vh"){
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+    </script>
+</body>
+</html>
