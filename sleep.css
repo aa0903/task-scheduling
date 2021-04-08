@@ -344,9 +344,6 @@
 }  
     
 #music {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
+    width:50%;
+    margin: 13px 25%;
 }
