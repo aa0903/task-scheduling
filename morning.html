@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scheduling Drones Morning Person </title>
+    <title>Projects</title>
     <link rel="stylesheet" href="./morning.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
         <div class="left-container">
-            <h1 class="txtlogo">Scheduling Drones</h1>
-            <!--<img class="logo" src="./icons8-s-64.png" alt="logo">-->
+            <h1>logo</h1>
+            <img id="avatar" src="./Avatar.png" alt="">
+            <p id="username">Avator</p>
             <div class="menu">
                 <a href="./index.html" ><button id="home">Home</button></a>
-                <a href="./index.html" ><button id="challenges">Challenges</button></a>
-                <a href="./index.html" ><button id="about">About</button></a>
-                <a href="./index.html" ><button id="contact">Contact</button></a>
-            </div>
-            <div class="bottom-menu">
-                <a href="./index.html" ><button id="settings">Settings</button></a>
-                <a href="./index.html" ><button id="log-out">Log out</button></a>
+                <a href="./projects.html" ><button id="projects">Projects</button></a>
+                <a href="./works.html" ><button id="works">works</button></a>
+                <a href="./about.html" ><button id="about">About us</button></a>
+                <a href="./contact.html" ><button id="conntact">contact</button></a>
             </div>
         </div>
         <div class="right-containes">
             <div class="header">
-                <div class="search-bar">
-                    <input id="search-bar" type="search"  placeholder="search" required style="outline: none; outline-style: none;">
+                <div class="sreach-bar">
+                    <div >
+                        <img id="menu-icon" src="./menu.png" alt="menu" 
+                        onclick="togglemenu()" >
+                    </div>
+                    <input id="sreach-bar" type="search"  placeholder="search" required style="outline: none; outline-style: none;">
+                    <a id="log-out" href="./log-out.html"><button>log out</button></a>
                 </div>
             </div>
+            <div id="menuList">
+                <h2>logo</h2>
+                <img id="avatar" src="./Avatar.png" alt="">
+                <p id="username">Avator</p>
+                <div class="menu">
+                    <a href="./index.html" ><button id="home">Home</button></a>
+                    <a href="./projects.html" ><button id="projects">Projects</button></a>
+                    <a href="./works.html" ><button id="works">works</button></a>
+                    <a href="./about.html" ><button id="about">About us</button></a>
+                    <a href="./contact.html" ><button id="conntact">contact</button></a>
+                </div>
+            </div>
+            <div class="body" onclick="retogglemenu(menuList)">
+                <p></p>
             <div class="topic1">
                 <h1 class="morn">Are you a Morning Person?</h1>
                 <h2 class="tip">8 Tips that will help you become a Morning Person</h2>
@@ -57,9 +74,42 @@
                     <h3 class="ndque">Get organized and set up your calendar</h3>
                     <img id="calender" src="./calender.img">
                     <p id="tab7" class="nav-tab tab7">Keeping your mind and work organized is the key to good sleep. If anything is bugging up try solving it or writing it down to free your mind while you sleep.<br>Plan something for every day, something that you look up to, to make yourself excited to hop out of bed and become a morning person.<br>As you will dive into your new routine, you’ll find yourself more active and ready for the day. This might take some time, but you will become a morning person and get your worm!</p>
-                  
-                
+</div>
+<div class="footer">
+    <div class="col1">
+        <p>SCHEDULING DRONES © 2021 ALL Rights Reserved</p>
+    </div>
+    <div class="col2">
+        <ul>
+            <li><img src="./icons8-facebook-64.png" alt=""></li>
+            <li><img src="./icons8-instagram-64.png" alt=""></li>
+            <li><img src="./icons8-twitter-circled-64.png" alt=""></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<script>
+var menuList = document.getElementById("menuList");
+menuList.style.maxHeight ="0vh";
+menuList.style.maxWidth ="0vw";
+function togglemenu(){
+if (menuList.style.maxHeight =="0vh"){
+    menuList.style.maxHeight ="60vh"
+    menuList.style.maxWidth ="120px"
+}
+else{
+    menuList.style.maxHeight ="0vh"
+    menuList.style.maxWidth ="0vw"
+}
+}
+function retogglemenu(){
+if (menuList.style.maxHeight ="60vh"){
+    menuList.style.maxHeight ="0vh"
+    menuList.style.maxWidth ="0vw"
+}
+}
+</script>
+</body>
+</html>
 
-                </div>
-                
-            </div>
