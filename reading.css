@@ -1,0 +1,22 @@
+.body{
+    width: 90%;
+    margin: 5%;
+}
+.body h3{
+    text-align: center;
+    color: #00BD56;
+}
+.body h2{
+    text-align: center;
+    color: #00BD56;
+}
+.body p{
+    margin: 20px 0%;
+}
+.body p span{
+    margin-left: 8%;
+}
+.body img{
+    width:50%;
+    margin: 13px 25%;
+}
