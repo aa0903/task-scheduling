@@ -312,8 +312,7 @@
 }
 
 #bedtime{
-    width:1000px;
-    height: 500px;
+    width: 50%;
     padding-left: 70px;
     padding-bottom: 25px;
 }
@@ -342,8 +341,8 @@
     letter-spacing: 1px;
     line-height:1.5;
 }  
-    
-#music {
+#music{
     width:50%;
-    margin: 13px 25%;
+    padding-left: 70px;
+    padding-bottom: 25px;
 }
