@@ -307,7 +307,7 @@
 }
 .topic3{
     font-family:"Source Sans Pro";
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 20px;
 }
 
@@ -317,7 +317,7 @@
     padding-bottom: 25px;
 }
 .txtread{
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Source Sans Pro";
     letter-spacing: 1px;
     line-height: 1.5;
@@ -325,24 +325,24 @@
 }
 .que{
     padding-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
     color: blue;
 }
 .ndque{
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     color: blue;
 }
 #tab1{
     font-family:"Source Sans Pro";
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
     text-indent: 70px;
     letter-spacing: 1px;
     line-height:1.5;
 }  
 #music{
-    width:55%;
+    width:65%;
     padding-left: 70px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
