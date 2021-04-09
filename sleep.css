@@ -317,7 +317,7 @@
     padding-bottom: 25px;
 }
 .txtread{
-    font-size: 29px;
+    font-size: 20px;
     font-family: "Source Sans Pro";
     letter-spacing: 1px;
     line-height: 1.5;
@@ -335,14 +335,14 @@
 }
 #tab1{
     font-family:"Source Sans Pro";
-    font-size: 29px;
+    font-size: 20px;
     padding-top: 10px;
     text-indent: 70px;
     letter-spacing: 1px;
     line-height:1.5;
 }  
 #music{
-    width:50%;
+    width:55%;
     padding-left: 70px;
     padding-bottom: 25px;
 }
