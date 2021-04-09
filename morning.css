@@ -306,22 +306,21 @@
 }
 .topic1{
     font-family:"Source Sans Pro";
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 20px;
 }
 .tip{
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 40px;
 }
 #sunm{
-    width:1000px;
-    height: 500px;
+    width: 65%;
     padding-left: 70px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 .txtwake{
-    font-size: 29px;
+    font-size: 18px;
     font-family: "Source Sans Pro";
     letter-spacing: 1px;
     line-height: 1.5;
@@ -329,115 +328,24 @@
 }
 .ndque{
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
+    color: blue;
 }
 #tab1{
     font-family:"Source Sans Pro";
-    font-size: 29px;
+    font-size: 18px;
     padding-top: 10px;
     text-indent: 70px;
     letter-spacing: 1px;
     line-height:1.5;
 }  
-#tab2{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-} 
-#tab3{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-} 
-#tab4{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-}
-#tab5{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-}
-#tab6{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-} 
-#tab7{
-    font-family:"Source Sans Pro";
-    font-size: 29px;
-    padding-top: 10px;
-    text-indent: 70px;
-    letter-spacing: 1px;
-    line-height:1.5;
-} 
-#sm{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
-#sunshine{ 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
-#exwake{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
 
+#sm{
+    width:65%;
+    padding-left: 70px;
+    padding-bottom: 15px;
 }
-#protien{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
-#nap{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
-#mobile{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
-#calender{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    width: 900px;
-    height: 400px;
-}
+
 
 
 
