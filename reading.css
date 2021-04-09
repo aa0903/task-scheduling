@@ -7,16 +7,22 @@
 }
 .body h3{
     text-align: center;
-    color: #00BD56;
+    color: blue;
+    font-family: "Source Sans Pro";
+    font-size: 35px;
 }
 .body h2{
     text-align: center;
-    color: #00BD56;
-    font-family: "Source Sans Pro"
+    color: blue;
+    font-family: "Source Sans Pro";
+    font-size: 35px;
 }
 .body p{
     margin: 20px 0%;
+    font-size: 18px;
     font-family: "Source Sans Pro";
+    letter-spacing: 1px;
+    line-height:1.5;
 }
 .body p span{
     margin-left: 8%;
