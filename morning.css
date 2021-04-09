@@ -325,6 +325,8 @@
     letter-spacing: 1px;
     line-height: 1.5;
     text-indent: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .ndque{
     padding-top: 20px;
@@ -338,10 +340,12 @@
     text-indent: 70px;
     letter-spacing: 1px;
     line-height:1.5;
+    margin-left: 5%;
+    margin-right: 5%;
 }  
 
 #sm{
-    width:65%;
+    width:90%;
     padding-left: 70px;
     padding-bottom: 15px;
 }
