@@ -1,3 +1,106 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./yoga.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="left-container">
+            <h1>logo</h1>
+            <img id="avatar" src="./Avatar.png" alt="">
+            <p id="username">Avator</p>
+            <div class="menu">
+                <a href="./index.html" ><button id="home">Home</button></a>
+                <a href="./projects.html" ><button id="projects">Projects</button></a>
+                <a href="./works.html" ><button id="works">works</button></a>
+                <a href="./about.html" ><button id="about">About us</button></a>
+                <a href="./contact.html" ><button id="conntact">contact</button></a>
+            </div>
+        </div>
+        <div class="right-containes">
+            <div class="header">
+                <div class="sreach-bar">
+                    <div >
+                        <img id="menu-icon" src="./menu.png" alt="menu" 
+                        onclick="togglemenu()" >
+                    </div>
+                    <input id="sreach-bar" type="search"  placeholder="search" required style="outline: none; outline-style: none;">
+                    <a id="log-out" href="./log-out.html"><button>log out</button></a>
+                </div>
+            </div>
+            <div id="menuList">
+                <h2>logo</h2>
+                <img id="avatar" src="./Avatar.png" alt="">
+                <p id="username">Avator</p>
+                <div class="menu">
+                    <a href="./index.html" ><button id="home">Home</button></a>
+                    <a href="./projects.html" ><button id="projects">Projects</button></a>
+                    <a href="./works.html" ><button id="works">works</button></a>
+                    <a href="./about.html" ><button id="about">About us</button></a>
+                    <a href="./contact.html" ><button id="conntact">contact</button></a>
+                </div>
+            </div>
+            <div class="body" onclick="retogglemenu(menuList)">
+                <p></p>
+                <div class="topic3">
+                    <h1 class="read">Yoga</h1>
+                    <h2 class="que">Relieve stress, Increase Flexibility, and Sculpt Your Muscles</h2>
+                    <img id="yo" src="./y1.png" alt="yoga">
+                    <p class="txtread">Routine stretching and breathing can enhance our life, protect you from injuries, and even lead to better intimacy.As with anything in life, getting motivated to do Yoga can be a real challenge. At times, it can even be difficult to notice that we have lapsed!  Also, it is distressing if our head wants to do Yoga but we find ourselves incapable of doing anything.At times, we don’t even know what’s holding us back. This further adds to our stress. The solution is to stop and take stock of what is going on and work out the steps to take. Here are 4 tips to stay motivated in your yoga practise. </p>
+                    <div id="tabs">
+                        <h3 class="ndque">1. Keep it short and sweet</h3>
+                        <p id="tab1" class="tab1">If you can’t manage a full 90-minute practice, don’t fret. Even taking 10-30 minutes can allow you to get the full effect of a session or allow you to focus on particular muscle groups that may need a stretch. Bringing your attention to your mat and steadying your breath, even for a relatively short period of time, will let you reap benefits throughout the day.</p>
+                        <h3 class="ndque">2. Find a regular time </h3>
+                        <p id="tab1" class="tab2">Set a time each day which you can dedicate to your practice. Plug it into your calendar. You can also easily start creating new, positive habits and associations, such as rolling out your mat as soon as you get home from work to help you relax, rather than opening that bottle of red. Or perhaps getting up before the kids to give yourself a precious half-hour before the chaos begins. You wouldn’t leave the house without cleaning your teeth and getting dressed, would you? In the same mindset, we can start to adapt yoga into our daily routines. An online platform such as Movement for Modern Life is designed to offer you plenty of options for home practice, even if your chosen time is 3am in your pyjamas! You can also commit to attending a regular class in your home town by buying a block of classes or term membership. Make sure that the studio is on your way home so you can’t make excuses.</p>
+                        <h3 class="ndque">3. Take your yoga off the mat</h3>
+                        <img id="yog"src="./y2.png"> 
+                        <p id="tab1" class="tab3">Yoga isn’t just about asana, or poses. Take your yoga values such non-attachment, gratitude and non-harming off the mat and into your day. This is a valuable way to develop your practise in a much broader sense. The physical aspects of yoga are there to help you learn patience, acceptance and endurance, so bear this is mind. Take a mental step back when a co-worker annoys you, your spouse hasn’t taken out the rubbish or you miss the bus home on a wet and cold evening. Take a moment to think before you speak and say the wrong thing. Remember that yoga has also taught you how to breathe and calm your nervous system.</p>
+                        <h3 class="ndque">4. Inspire yourself</h3>
+                        <img id="yog"src="./y3.png"> 
+                        <p id="tab1" class="nav-tab tab5">There may be a lot of negativity online, but it’s also possible to use social media in a positive light, for example by following your favourite yogis to gain inspiration. How about joining one of the many yoga challenges on Instagram or Twitter that you come across? <br>While yoga and consumer culture don’t necessarily go hand in hand, sometimes a new mat, piece of clothing or something beautiful to add to your meditation area can be just what you need to give you a little incentive. Above all, though, listen to your body and don’t push – that’s “ahimsa“, too, by harming yourself. Some days, your practice just isn’t meant to be. Other days, you will benefit enormously from a little positive self-talk and encouragement to get on the mat. Don’t attach too much to your practice but do stay in the moment and enjoy every second when you do find your flow.</p>
+                        </div>
+            <div class="footer">
+                <div class="col1">
+                    <p>SCHEDULING DRONES © 2021 ALL Rights Reserved</p>
+                </div>
+                <div class="col2">
+                    <ul>
+                        <li><img src="./icons8-facebook-64.png" alt=""></li>
+                        <li><img src="./icons8-instagram-64.png" alt=""></li>
+                        <li><img src="./icons8-twitter-circled-64.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight ="0vh";
+        menuList.style.maxWidth ="0vw";
+        function togglemenu(){
+            if (menuList.style.maxHeight =="0vh"){
+                menuList.style.maxHeight ="60vh"
+                menuList.style.maxWidth ="120px"
+            }
+            else{
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+        function retogglemenu(){
+            if (menuList.style.maxHeight ="60vh"){
+                menuList.style.maxHeight ="0vh"
+                menuList.style.maxWidth ="0vw"
+            }
+        }
+    </script>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,3 +204,4 @@
 </body>
 </html>
 
+>>>>>>> 1774fdb4947cf84730e7a686a648b13cde6f745d
